@@ -17,7 +17,7 @@ Docker
 **********
 Ejecutar ls siguientes comandos para iniciar los servicios de Docker
 ---------------
-docker run --rm --name mysql -e MYSQL_ROOT_PASSWORD=root -d -p 3306:3306 mysql
+docker run --rm --name mysql -e MYSQL_ROOT_PASSWORD=tu_password -d -p 3306:3306 mysql
 docker run --rm --name adminer -d -p 8081:8080 adminer
 
 jdbc:mysql://localhost:3306/modulo40
